@@ -1,12 +1,13 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import time
 
 st.header("My first Streamlit App")
 
 option = st.sidebar.selectbox(
     'Select a mini project',
-     ['line chart','map','T n C'])
+     ['line chart','map','T n C','Long Process'])
 
 if option=='line chart':
     chart_data = pd.DataFrame(
