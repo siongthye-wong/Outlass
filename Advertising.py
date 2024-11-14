@@ -7,6 +7,8 @@ import numpy as np
 pd.options.display.max_columns = None
 pd.options.display.max_rows = None
 
+#df = pd.read_csv('Advertising.csv')
+
 from sklearn.model_selection import train_test_split
 
 X = df[['TV', 'Radio', 'Newspaper']]
