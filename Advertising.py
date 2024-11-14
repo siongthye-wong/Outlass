@@ -3,11 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-
 pd.options.display.max_columns = None
 pd.options.display.max_rows = None
 
-#df = pd.read_csv('Advertising.csv')
+df = pd.read_csv('Advertising.csv')
 
 from sklearn.model_selection import train_test_split
 
