@@ -13,7 +13,7 @@ def user_input_features():
     radio = st.sidebar.slider('Radio', 0.0, 150.0, 300.0)
     newspaper = st.sidebar.slider('Newspaper', 0.0, 150.0, 300.0)
 
-    data = {'Television': television,
+    data = {'TV': television,
             'Radio': radio,
             'Newspaper': newspaper,}
     features = pd.DataFrame(data, index=[0])
