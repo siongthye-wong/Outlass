@@ -15,7 +15,7 @@ def user_input_features():
 
     data = {'TV': television,
             'Radio': radio,
-            'Newspaper': newspaper,}
+            'Newspaper': newspaper}
     features = pd.DataFrame(data, index=[0])
     return features
 
